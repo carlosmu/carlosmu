@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="59.97052mm"
+   height="29.459122mm"
+   viewBox="0 0 59.97052 29.459122"
+   version="1.1"
+   id="svg234"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs231" />
+  <g
+     id="layer1"
+     transform="translate(-91.228777,-102.4816)">
+    <g
+       id="g304"
+       transform="matrix(1.3446574,0,0,1.3446574,-41.777321,-40.3977)">
+      <text
+         xml:space="preserve"
+         style="font-size:14.1052px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;stroke-width:0.352629"
+         x="143.7816"
+         y="121.47405"
+         id="text264"><tspan
+           id="tspan262"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Patrick Hand SC';-inkscape-font-specification:'Patrick Hand SC';fill:#ffffff;stroke-width:0.352629"
+           x="143.7816"
+           y="121.47405">KUARA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.38937px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0.529167px;word-spacing:0px;text-anchor:end;fill:#bfbfbf;stroke-width:0.210762"
+         x="137.00896"
+         y="126.85764"
+         id="text268"><tspan
+           id="tspan266"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.38937px;font-family:'Darker Grotesque';-inkscape-font-specification:'Darker Grotesque';fill:#bfbfbf;stroke-width:0.210762"
+           x="137.53813"
+           y="126.85764"
+           dx="0">cerámica</tspan></text>
+      <path
+         style="color:#000000;fill:#bfbfbf;stroke-width:1.18892;stroke-linejoin:round;paint-order:markers fill stroke"
+         d="m 101.52733,106.25703 c 0,0 8.5324,0.12997 12.24568,0.0441 0,0 0.85202,-0.004 2.32889,0.004 -3.33502,1.5559 -7.4996,1.03763 -10.63499,1.08269 -1.40257,0.0195 -2.48146,0.0303 -2.85345,0.0254 1.59464,1.84831 2.4636,3.44741 2.47749,4.90895 0.0159,1.66417 -0.64854,3.10872 -1.67196,4.67675 -7.8e-4,0.002 -0.002,0.003 -0.002,0.005 -1.0714,1.59406 -1.58465,3.03519 -1.65102,4.27735 -0.0664,1.24215 0.29749,2.29366 1.0403,3.18362 0.99193,1.18842 3.02033,2.38583 5.18215,2.6864 2.20495,0.27982 4.01872,0.0577 5.96894,0.93922 -0.76112,0.0863 -4.82821,0.11491 -6.21877,-0.007 -2.58181,-0.22624 -5.70879,-0.97139 -7.37666,-2.83036 -1.029082,-1.14699 -1.570241,-2.23969 -1.423809,-4.12208 0.146434,-1.88238 1.134549,-3.1614 2.293589,-4.76111 1.15904,-1.5997 2.09304,-2.7273 2.10071,-4.03819 -0.013,-1.36996 -0.088,-2.93135 -2.12281,-5.05293 -0.43555,-0.49342 -0.0265,-1.01013 0.31808,-1.02129 z"
+         id="path270" />
+    </g>
+  </g>
+</svg>
