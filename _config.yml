@@ -1,4 +1,5 @@
 # Este valor se usa para generar la navegación interna del sitio
-url: https://kuara.com.ar/
+# url: https://kuara.com.ar/
+baseURL = "https://carlosmunoz.com.ar/"
 
 # http:/kuara.com.ar/
