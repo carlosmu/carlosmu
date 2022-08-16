@@ -1,3 +1,6 @@
+body {
+    background-color: #444;
+}
 .content {
     padding-top: 50px;
     display: flex;
