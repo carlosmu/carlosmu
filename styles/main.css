@@ -1,5 +1,6 @@
 body {
     background-color: #EDE2D9;
+    box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -125,6 +126,7 @@ p {
 
 footer {
     width: 100%;
+    box-sizing: border-box;
     padding: 25px 15px 50px;
     text-align: center;
     background-color: #BAB2AB;
