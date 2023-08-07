@@ -46,7 +46,9 @@ p, a, span, q {
     padding: 1em;
     box-sizing: border-box;
     width: 28vh;
+    min-width: 200px;
     height: 24vh;
+    min-height: 90px;
     cursor: pointer;
     border-radius: 0.5em;
     display: flex;
@@ -135,7 +137,7 @@ footer span {
     color: #222;
 }
 
-@media only screen and (orientation: landscape) {
+@media (min-width: 960px) and (orientation: landscape) {
     .social-buttons {
         width: 30%;
     }
