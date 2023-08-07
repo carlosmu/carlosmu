@@ -69,7 +69,6 @@ p, a, span, q {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .social-buttons a {
     box-sizing: border-box;
@@ -78,8 +77,6 @@ p, a, span, q {
     border-radius: 5px;
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #222;
-    /* background-color: #6E6965; */
     background-color: #56524f;
     height: 4em;
 }
@@ -91,15 +88,17 @@ p, a, span, q {
     /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
 }
 .social-buttons a:hover {
-    /* background-color: #56524f; */
     background-color: #6E6965;
 }
 .social-text {
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
 }
 .social-title {
     display: block;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 .social-subtitle {
     display: block;
