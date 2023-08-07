@@ -1,35 +1,136 @@
 body {
-    background-color: #444;
+    background-color: #EDE2D9;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 h1, h2, h3, h4, h5, h6, span, p {
     color: #ddd;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+p, a, span, q {
+    font-size: 1.0em;
 }
 
+
 .content {
-    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.social-buttons {
-    padding-top: 30px;
-    box-sizing: border-box;
-    width: 60%;
+.top-banner {
+    width: 100%;
+    height: 25vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/photos/photo_05.jpg");
+    background-size: cover;
+    background-position: 0% 50%;
+}
+
+.top-image {
+    position: absolute;
+    height: 35vh;
+}
+
+.top-banner img {
+    max-height: 100%;
+}
+
+.kuara-logo {
+    padding: 1em;
+    box-sizing: border-box;
+    width: 28vh;
+    height: 24vh;
+    cursor: pointer;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25vh;
+}
+.kuara-logo img {
+    width: 100%;
+    filter:opacity(95%)
+    /* filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.8)); */
+}
+
+.social-buttons {
+    padding: 20vh 0 10vh;
+    box-sizing: border-box;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    flex-direction: row;
+    /* align-items: center; */
+}
+.social-buttons a {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #222;
+    /* background-color: #6E6965; */
+    background-color: #56524f;
+    height: 4em;
 }
 .social-buttons img {
     position: relative;
-    width: 2.5em;
+    max-height: 2em;
+    width: 2em;
+    filter: invert(100%);
+    /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
 }
-.social-buttons img:hover {
-    border-bottom: 5px solid cyan;
+.social-buttons a:hover {
+    /* background-color: #56524f; */
+    background-color: #6E6965;
+}
+.social-text {
+    margin-left: 10px;
+}
+.social-title {
+    display: block;
+    font-size: 1.3em;
+}
+.social-subtitle {
+    display: block;
+    line-height: 1.5;
+    font-size: 0.9em;
+    color: #bbb;
 }
 p {
     text-align: center;
     width: 90%;
+}
+.gallery {
+    display: none;
+    margin-top: 100px;
+    /* display: flex; */
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+.gallery img {
+    /* width: auto; */
+    width: 25%;
+    /* height: 100%; */
+}
+
+footer {
+    width: 100%;
+    padding: 25px 15px 50px;
+    text-align: center;
+    background-color: #BAB2AB;
+}
+footer span {
+    color: #222;
 }
 
 @media only screen and (orientation: landscape) {
@@ -38,6 +139,12 @@ p {
     }
     p {
         width: 55%;
+    }
+    .gallery {
+        width: 50%;
+        /* height: 200px; */
+        overflow: hidden;
+        border-radius: 10px;
     }
 
 }
